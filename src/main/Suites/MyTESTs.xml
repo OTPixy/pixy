@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="RunTESTS" verbose="1">
+    <test name="FT">
+        <classes>
+            <class name="MyFirstTest">
+             <methods>
+                 <include name = "test1"/>
+                 <include name = "test2"/>
+             </methods>
+                    </class>
+        </classes>
+    </test>
+</suite>
